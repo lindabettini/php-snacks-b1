@@ -73,7 +73,7 @@ $dates = array_keys($posts_by_date);
       <?php for ($j = 0; $j < count($posts); $j++) {
         $post = $posts[$j];
       ?>
-        <h5><?= $post['title'] ?></h5>
+        <h4><?= $post['title'] ?></h4>
         <p><?= $post['text'] ?></p>
         <address><?= $post['author'] ?></address>
       <?php } ?>
